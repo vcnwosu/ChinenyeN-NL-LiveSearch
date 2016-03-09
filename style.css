@@ -1,0 +1,80 @@
+html, body, section, header, form, main, div, input, a, img, h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  position: relative;
+}
+body > header {
+  width: inherit;
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: #e5e5ff;
+  background: -webkit-linear-gradient(#e5e5ff 70%, #ccccff);
+  background: -o-linear-gradient(#e5e5ff 70%, #ccccff);
+  background: -moz-linear-gradient(#e5e5ff 70%, #ccccff);
+  background: linear-gradient(#e5e5ff 70%, #ccccff);
+}
+header span {
+  color: #6666ff;
+  font-weight: bold;
+}
+header q, #author {
+  font-size: 12px;
+  color: #6666ff;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: none;
+}
+input {
+  width: 20%;
+  font-size: inherit;
+  padding: 5px 10px;
+  line-height: 1.5; 
+  background: white;
+  color: black;
+  border: 1px solid #ccccff;
+  border-radius: 5px 5px;
+}
+body > main {
+  width: inherit;
+  padding: 10px 10px;
+  margin-bottom: 200px;
+}
+.result {
+  top: 30px;
+  left: 65px;
+  max-width: 45%;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 5px #ccccff;
+}
+.result header {
+  font-size: 20px;
+}
+#url {
+  display: block;
+  color: green;
+  font-size: 12px;
+  margin-top: 3px;
+  font-weight: normal;
+}
+.result a {
+  color: #6666ff;
+  text-decoration: none;
+  text-shadow: 0px;
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+.result > section {
+  font-style: italic;
+  color: #222;
+  margin-top: 10px;
+}
+.author, .post-date, .views-upvote {
+  font-weight: bold;
+  height: 15px;
+  display: inline-block;
+  padding: 10px 10px;
+  background: #e5e5ff;
+  border: 1px solid #ccccff;
+}
